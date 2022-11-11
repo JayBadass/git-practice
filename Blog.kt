@@ -6,8 +6,8 @@ fun main() {
 
 interface Comment {
     val userNicknameComment: Int,
-    val mainTextComment: String
-    val commentOfComment: String
+    val mainTextComment: Int,
+    val commentOfComment: Int,
 }
 
 interface CommentWithoutComment {
