@@ -5,7 +5,7 @@ fun main() {
 }
 
 interface Comment {
-    val userNicknameComment: String,
+    val userNicknameComment: Int,
     val mainTextComment: String
     val commentOfComment: String
 }
